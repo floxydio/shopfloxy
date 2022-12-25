@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA01E60629588D9B009EBCBD /* ShopFloxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01E60529588D9B009EBCBD /* ShopFloxyApp.swift */; };
+		FA01E60829588D9B009EBCBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01E60729588D9B009EBCBD /* ContentView.swift */; };
+		FA01E60A29588D9D009EBCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA01E60929588D9D009EBCBD /* Assets.xcassets */; };
+		FA01E60D29588D9D009EBCBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA01E60C29588D9D009EBCBD /* Preview Assets.xcassets */; };
+		FA01E61829588D9E009EBCBD /* ShopFloxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01E61729588D9E009EBCBD /* ShopFloxyTests.swift */; };
+		FA01E62329588D9E009EBCBD /* ShopFloxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01E62229588D9E009EBCBD /* ShopFloxyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA01E61429588D9E009EBCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA01E5FA29588D9B009EBCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA01E60129588D9B009EBCBD;
+			remoteInfo = ShopFloxy;
+		};
+		FA01E61F29588D9E009EBCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA01E5FA29588D9B009EBCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA01E60129588D9B009EBCBD;
+			remoteInfo = ShopFloxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA01E60229588D9B009EBCBD /* ShopFloxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopFloxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01E60529588D9B009EBCBD /* ShopFloxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFloxyApp.swift; sourceTree = "<group>"; };
+		FA01E60729588D9B009EBCBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA01E60929588D9D009EBCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA01E60C29588D9D009EBCBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA01E60E29588D9D009EBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA01E61329588D9E009EBCBD /* ShopFloxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopFloxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01E61729588D9E009EBCBD /* ShopFloxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFloxyTests.swift; sourceTree = "<group>"; };
+		FA01E61929588D9E009EBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA01E61E29588D9E009EBCBD /* ShopFloxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopFloxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01E62229588D9E009EBCBD /* ShopFloxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFloxyUITests.swift; sourceTree = "<group>"; };
+		FA01E62429588D9E009EBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA01E5FF29588D9B009EBCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E61029588D9E009EBCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E61B29588D9E009EBCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA01E5F929588D9B009EBCBD = {
+			isa = PBXGroup;
+			children = (
+				FA01E60429588D9B009EBCBD /* ShopFloxy */,
+				FA01E61629588D9E009EBCBD /* ShopFloxyTests */,
+				FA01E62129588D9E009EBCBD /* ShopFloxyUITests */,
+				FA01E60329588D9B009EBCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA01E60329588D9B009EBCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA01E60229588D9B009EBCBD /* ShopFloxy.app */,
+				FA01E61329588D9E009EBCBD /* ShopFloxyTests.xctest */,
+				FA01E61E29588D9E009EBCBD /* ShopFloxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA01E60429588D9B009EBCBD /* ShopFloxy */ = {
+			isa = PBXGroup;
+			children = (
+				FA01E60529588D9B009EBCBD /* ShopFloxyApp.swift */,
+				FA01E60729588D9B009EBCBD /* ContentView.swift */,
+				FA01E60929588D9D009EBCBD /* Assets.xcassets */,
+				FA01E60E29588D9D009EBCBD /* Info.plist */,
+				FA01E60B29588D9D009EBCBD /* Preview Content */,
+			);
+			path = ShopFloxy;
+			sourceTree = "<group>";
+		};
+		FA01E60B29588D9D009EBCBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA01E60C29588D9D009EBCBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA01E61629588D9E009EBCBD /* ShopFloxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA01E61729588D9E009EBCBD /* ShopFloxyTests.swift */,
+				FA01E61929588D9E009EBCBD /* Info.plist */,
+			);
+			path = ShopFloxyTests;
+			sourceTree = "<group>";
+		};
+		FA01E62129588D9E009EBCBD /* ShopFloxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA01E62229588D9E009EBCBD /* ShopFloxyUITests.swift */,
+				FA01E62429588D9E009EBCBD /* Info.plist */,
+			);
+			path = ShopFloxyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA01E60129588D9B009EBCBD /* ShopFloxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01E62729588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxy" */;
+			buildPhases = (
+				FA01E5FE29588D9B009EBCBD /* Sources */,
+				FA01E5FF29588D9B009EBCBD /* Frameworks */,
+				FA01E60029588D9B009EBCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopFloxy;
+			productName = ShopFloxy;
+			productReference = FA01E60229588D9B009EBCBD /* ShopFloxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA01E61229588D9E009EBCBD /* ShopFloxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01E62A29588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxyTests" */;
+			buildPhases = (
+				FA01E60F29588D9E009EBCBD /* Sources */,
+				FA01E61029588D9E009EBCBD /* Frameworks */,
+				FA01E61129588D9E009EBCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA01E61529588D9E009EBCBD /* PBXTargetDependency */,
+			);
+			name = ShopFloxyTests;
+			productName = ShopFloxyTests;
+			productReference = FA01E61329588D9E009EBCBD /* ShopFloxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA01E61D29588D9E009EBCBD /* ShopFloxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01E62D29588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxyUITests" */;
+			buildPhases = (
+				FA01E61A29588D9E009EBCBD /* Sources */,
+				FA01E61B29588D9E009EBCBD /* Frameworks */,
+				FA01E61C29588D9E009EBCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA01E62029588D9E009EBCBD /* PBXTargetDependency */,
+			);
+			name = ShopFloxyUITests;
+			productName = ShopFloxyUITests;
+			productReference = FA01E61E29588D9E009EBCBD /* ShopFloxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA01E5FA29588D9B009EBCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA01E60129588D9B009EBCBD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA01E61229588D9E009EBCBD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA01E60129588D9B009EBCBD;
+					};
+					FA01E61D29588D9E009EBCBD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA01E60129588D9B009EBCBD;
+					};
+				};
+			};
+			buildConfigurationList = FA01E5FD29588D9B009EBCBD /* Build configuration list for PBXProject "ShopFloxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA01E5F929588D9B009EBCBD;
+			productRefGroup = FA01E60329588D9B009EBCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA01E60129588D9B009EBCBD /* ShopFloxy */,
+				FA01E61229588D9E009EBCBD /* ShopFloxyTests */,
+				FA01E61D29588D9E009EBCBD /* ShopFloxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA01E60029588D9B009EBCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01E60D29588D9D009EBCBD /* Preview Assets.xcassets in Resources */,
+				FA01E60A29588D9D009EBCBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E61129588D9E009EBCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E61C29588D9E009EBCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA01E5FE29588D9B009EBCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01E60829588D9B009EBCBD /* ContentView.swift in Sources */,
+				FA01E60629588D9B009EBCBD /* ShopFloxyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E60F29588D9E009EBCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01E61829588D9E009EBCBD /* ShopFloxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01E61A29588D9E009EBCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01E62329588D9E009EBCBD /* ShopFloxyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA01E61529588D9E009EBCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA01E60129588D9B009EBCBD /* ShopFloxy */;
+			targetProxy = FA01E61429588D9E009EBCBD /* PBXContainerItemProxy */;
+		};
+		FA01E62029588D9E009EBCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA01E60129588D9B009EBCBD /* ShopFloxy */;
+			targetProxy = FA01E61F29588D9E009EBCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA01E62529588D9E009EBCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA01E62629588D9E009EBCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA01E62829588D9E009EBCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopFloxy/Preview Content\"";
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShopFloxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA01E62929588D9E009EBCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopFloxy/Preview Content\"";
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShopFloxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA01E62B29588D9E009EBCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				INFOPLIST_FILE = ShopFloxyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopFloxy.app/ShopFloxy";
+			};
+			name = Debug;
+		};
+		FA01E62C29588D9E009EBCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				INFOPLIST_FILE = ShopFloxyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopFloxy.app/ShopFloxy";
+			};
+			name = Release;
+		};
+		FA01E62E29588D9E009EBCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				INFOPLIST_FILE = ShopFloxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopFloxy;
+			};
+			name = Debug;
+		};
+		FA01E62F29588D9E009EBCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4NL4N73P8;
+				INFOPLIST_FILE = ShopFloxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iotech.belajar.ShopFloxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopFloxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA01E5FD29588D9B009EBCBD /* Build configuration list for PBXProject "ShopFloxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01E62529588D9E009EBCBD /* Debug */,
+				FA01E62629588D9E009EBCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01E62729588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01E62829588D9E009EBCBD /* Debug */,
+				FA01E62929588D9E009EBCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01E62A29588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01E62B29588D9E009EBCBD /* Debug */,
+				FA01E62C29588D9E009EBCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01E62D29588D9E009EBCBD /* Build configuration list for PBXNativeTarget "ShopFloxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01E62E29588D9E009EBCBD /* Debug */,
+				FA01E62F29588D9E009EBCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA01E5FA29588D9B009EBCBD /* Project object */;
+}
